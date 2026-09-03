@@ -1,0 +1,67 @@
+{
+    "manufacturer": "Yakshith K",
+    "keyboard_name": "agentboard",
+    "maintainer": "Yakshith K",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+
+    "url": "https://github.com/yakshithk/agentboard",
+
+    "features": {
+        "bootmagic": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "oled": true,
+        "encoder": true
+    },
+
+    "matrix_pins": {
+        "direct": [
+            ["GP3", "GP4", "GP2", "GP26"]
+        ]
+    },
+
+    "encoder": {
+        "enabled": true,
+        "rotary": [
+            {
+                "pin_a": "GP28",
+                "pin_b": "GP29"
+            }
+        ]
+    },
+
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {
+                    "matrix": [0, 0],
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "matrix": [0, 1],
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "matrix": [0, 2],
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "matrix": [0, 3],
+                    "x": 3,
+                    "y": 0
+                }
+            ]
+        }
+    }
+}
