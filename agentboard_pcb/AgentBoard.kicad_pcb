@@ -4643,7 +4643,7 @@
 		(uuid "711b14c0-fe01-4ddd-8242-cd4020b8557c")
 	)
 	(gr_text "yakshithk"
-		(at 49 39.5 270)
+		(at 34.5 40 270)
 		(layer "F.SilkS")
 		(uuid "570799f1-bd04-4357-aa04-866130976037")
 		(effects
