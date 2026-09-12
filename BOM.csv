@@ -1,0 +1,8 @@
+Item,Reference,Quantity,Part,Description,Footprint,Notes
+1,U1,1,Seeed Studio XIAO RP2040,Raspberry Pi RP2040 based USB microcontroller module,XIAO-Generic-Hybrid-14P-2.54-21X17.8MM,
+2,"SW1, SW2, SW3",3,MX-style mechanical switch,Push button switch (cherry MX compatible),SW_Cherry_MX_1.00u_PCB,Any MX compatible switch works
+3,SW4,1,Alps EC11E rotary encoder,"Rotary encoder with integrated push switch (vertical, 20mm shaft)",RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles,
+4,J1,1,0.91 in SSD1306 OLED display,128x32 monochrome OLED module with I2C interface,SSD1306-0.91-OLED-4pin-128x32,4-pin header (GND VCC SCL SDA)
+5,PCB1,1,AgentBoard PCB,2-layer KiCad PCB,,"Order from JLCPCB, PCBWay, or similar"
+6,KN1,1,Rotary encoder knob,Knob compatible with 6mm D-shaft EC11 encoder,,Optional depending on enclosure
+7,KC1-KC3,3,1u keycaps,Cherry MX profile keycaps,,
