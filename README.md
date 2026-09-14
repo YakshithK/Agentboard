@@ -9,13 +9,17 @@ A macropad for controlling Claude Code and Codex sessions. The hardware design i
 | ![CAD top view with components](assets/cad-top.png) | ![CAD bottom view](assets/cad-bottom.png) |
 
 ## Features
-- 3 Keys: forward slash for commands, enter (obvisouly), push-to-talk
+- 3 Keys: forward slash for commands, enter (obviously), push-to-talk
 - Encoder to shuffle between answer choices
 - Encoder switch to shuffle between permission modes
 
 ## Technical Details
 
 The board is built around the XIAO RP2040, three push buttons, an Alps EC11 rotary encoder with switch, and a 128x32 SSD1306 OLED connected over I2C.
+
+| Schematic | PCB Layout |
+| --- | --- |
+| ![Schematic](assets/schematic.png) | ![PCB layout](assets/pcb.png) |
 
 ## Bill of Materials
 
@@ -61,8 +65,17 @@ I really wish to add bluetooth support and maybe even wifi. Possibly turning thi
 
 | Path | Purpose |
 | --- | --- |
+| [`CAD/AgentBoard.step`](CAD/AgentBoard.step) | 3D CAD model in STEP format |
 | [`PCB/AgentBoard.step`](PCB/AgentBoard.step) | 3D CAD model in STEP format |
 | [`PCB/AgentBoard.stl`](PCB/AgentBoard.stl) | 3D CAD model in STL format |
+
+### Hardware: Production Files
+
+| Path | Purpose |
+| --- | --- |
+| [`production/AgentBoard.step`](production/AgentBoard.step) | STEP model bundled for fabrication |
+| [`production/gerbers/`](production/gerbers/) | Gerber plot, drill, and pick-and-place files |
+| [`production/firmware/`](production/firmware/) | QMK firmware source for flashing |
 
 ### Hardware: Visual References
 
