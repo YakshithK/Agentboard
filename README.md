@@ -74,6 +74,7 @@ I really wish to add bluetooth support and maybe even wifi. Possibly turning thi
 | Path | Purpose |
 | --- | --- |
 | [`production/AgentBoard.step`](production/AgentBoard.step) | STEP model bundled for fabrication |
+| [`production/AgentBoard-gerbers.zip`](production/AgentBoard-gerbers.zip) | Zipped Gerbers + drill, ready to upload to the fab |
 | [`production/gerbers/`](production/gerbers/) | Gerber plot, drill, and pick-and-place files |
 | [`production/firmware/`](production/firmware/) | QMK firmware source for flashing |
 
